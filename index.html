@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elizabeth Ichang'a | My Portfolio</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+    <!-- <link rel="stylesheet" href="magnific-popup/magnific-popup.css"> -->
+    <link rel="stylesheet" href="css/home.css" type="text/css">
+    <link rel="stylesheet" href="css/popup.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar fixed-top navbar-toggleable-sm navbar-inverse">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <div class="navbar-brand">
+          <a href="index.html"><h4>Elizabeth Ichang'a</h4></a>
+        </div>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="nav-item active" data-toggle="collapse" data-target="#navbar-collapse"><a class="scroll" href="#home"><h4>Home</h4></a></li>
+          <li class="nav-item" data-toggle="collapse" data-target="#navbar-collapse"><a class="scroll" href="#about"><h4>About Me</h4></a></li>
+          <li class="nav-item" data-toggle="collapse" data-target="#navbar-collapse"><a class="scroll" href="#projects"><h4>Projects</h4></a></li>
+          <li class="nav-item" data-toggle="collapse" data-target="#navbar-collapse"><a class="scroll" href="#contact"><h4>Contact</h4></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="home" id="home">
+      <div class="home-overlay"></div>
+      <div class="home-text">
+        <hr class="home-hr top">
+        <h1>Elizabeth Ichang'a</h1>
+        <h2><span id="web-dev">Web Developer </span>|
+          <div class="animation">
+            <ul class="scroll-list">
+              <li class="scroll-words">Back-end Developer</li>
+              <li class="scroll-words">Front-end Developer</li>
+            </ul>
+          </div>
+        </h2>
+        <hr class="home-hr bottom">
+        <div class="link-buttons">
+          <a class="scroll" href="#about"><button class="btn btn-lg">About Me</button></a>
+          <a class="scroll" href="#projects"><button class="btn btn-lg">Projects</button></a>
+          <a class="scroll" href="#contact"><button class="btn btn-lg">Contact</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id="about">
+      <div class="row about-row">
+        <div class="image-container col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <img src="img/liz.JPG" alt="Elizabeth Ichanga" class="picture img-responsive">
+        </div>
+        <div class="about col-sm-12 col-md-7 col-lg-7">
+          <h1>About Me</h1>
+          <p>Hey, I am Elizabeth, a web developer who is interested in back-end and front-end development.I am passionate about the technologies involved in the process of creating functional and efficient applications.</p>
+        </div>
+      </div>
+      <div class="container skills-container">
+        <div class="row skills-row">
+          <h2>My Skills</h2>
+          <div class="skills-panel">
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 skills-div">
+              <ul class="skills-list">
+                <li>&#10004 HTML5</li>
+                <li>&#10004 CSS3</li>
+                <li>&#10004 Python</li>
+              </ul>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 skills-div">
+              <ul class="skills-list">
+                <li>&#10004 Django</li>
+                <li>&#10004 PostgreSQL</li>
+                <li>&#10004 Heroku</li>
+              </ul>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 skills-div">
+              <ul class="skills-list">
+                <li>&#10004 Javascript</li>
+                <li>&#10004 Typescript</li>
+                <li>&#10004 Angular</li>
+              </ul>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 skills-div">
+              <ul class="skills-list">
+                <li>&#10004 Bootsrap</li>
+                <li>&#10004 Flask</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects" id="projects">
+      <div class="container">
+        <h1 class="projects-title">Projects</h1>
+        <div class="row project-row" id="one" data-color="rgb(242, 242, 230)">
+
+          <div class="container-fluid col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="project-overlay"></div>
+            <img src="img/icon/gallery2.png" alt="Traffic Tracker Project" class="img-responsive traffic">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 project-info">
+
+            <!-- Modal -->
+            <div id="trafficTracker" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+              <div class="container">
+                <div class="modal-dialog modal-lg">
+                  <div class="row">
+                    <h2 class="project-name">Gallery</h2>
+                    <a href="https://gallery75.herokuapp.com/" target="blank"><h4 class="site-link">View site</h4></a>
+                  </div>
+                  <div class="modal-content">
+                    <div id="carousel-slide-one" class="carousel slide" data-ride="carousel">
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <img src="img/project/gallery1.png" alt="Traffic Tracker Screenshot" class="img-responsive">
+                        </div>
+                        <div class="item">
+                          <img src="img/project/gallery2.png" alt="Traffic Tracker Screenshot" class="img-responsive">
+                        </div>
+                        <div class="item">
+                          <img src="img/project/gallery3.png" alt="Traffic Tracker Screenshot" class="img-responsive">
+                        </div>
+                      </div>
+
+                      <!-- Controls -->
+                      <a class="left carousel-control" href="#carousel-slide-one" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                          </a>
+                      <a class="right carousel-control" href="#carousel-slide-one" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                          </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of modal -->
+            <h3 class="project-title">Gallery</h3>
+            <h5 class="project-role">Role: Full-stack Developer</h5>
+            <p class="project-description">A web application that allows users to view images and when they were posted and also where they were posted from.</p>
+            <h4 class="project-languages">Technologies Used: Django; HTML: CSS</h4>
+            <a href="#" data-toggle="modal" data-target="#trafficTracker"><button class="btn btn-default btn-lg see-more">See more</button></a>
+          </div>
+        </div>
+
+        <div class="row project-row" id="three" data-color="rgb(255, 225, 131)">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <img src="img/icon/instag2.png" alt="Capture Project" class="img-responsive camera">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 project-info">
+            <!-- Modal -->
+            <div id="unsplash" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby=1 "myLargeModalLabel" aria-hidden="true">
+
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+              <div class="container">
+                <div class="modal-dialog modal-lg">
+                  <div class="row">
+                    <h2 class="project-name">Instagram Clone</h2>
+                    <a href="https://instagrammli.herokuapp.com/" target="blank"><h4 class="site-link">View site</h4></a>
+                  </div>
+                  <div class="modal-content">
+                    <div id="carousel-slide-three" class="carousel slide" data-ride="carousel">
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <img src="img/project/insta1.png" alt="Patient Care Screenshot" class="img-responsive">
+                        </div>
+                        <div class="item">
+                          <img src="img/project/insta2.png" alt="Patient Care Screenshot" class="img-responsive">
+                        </div>
+                        <div class="item">
+                          <img src="img/project/insta3.png" alt="Patient Care Screenshot" class="img-responsive">
+                        </div>
+                        <div class="item">
+                          <img src="img/project/insta4.png" alt="Patient Care Screenshot" class="img-responsive">
+                        </div>
+                      </div>
+
+                      <!-- Controls -->
+                      <a class="left carousel-control" href="#carousel-slide-three" role="button" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                      <a class="right carousel-control" href="#carousel-slide-three" role="button" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of modal -->
+            <h3 class="project-title">Instagram Clone</h3>
+            <h5 class="project-role">Role: Full-stack Developer</h5>
+            <p class="project-description">An application where users can upload images, comment on images posted and also like images posted by others.</p>
+            <h4 class="project-languages">Technologies Used: Django; Python; PostgreSQL; HTML; CSS</h4>
+            <a href="#" data-toggle="modal" data-target="#unsplash"><button class="btn btn-default btn-lg see-more">See more</button></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="contact" id="contact">
+      <div class="contact-container">
+        <div class="container" id="contact-text">
+          <h1>Get in touch!</h1>
+          <hr id="title">
+          <a href="mailto:lizzichanga@gmail.com"><button class="btn btn-default btn-lg email">lizzichanga@gmail.com</button></a>
+
+          <div class="social">
+            <a href="https://github.com/leezichanga" target="blank"><img src="img/icon/github.png" alt="Github" class="img-responsive github"></a>
+            <a href="https://www.linkedin.com/in//" target="blank"><img src="img/icon/linkedin.png" alt="LinkedIn" class="img-responsive linkedin"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>&copy Elizabeth Ichang'a - Web Developer 2018</p>
+    </footer>
+
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/popup.js"></script>
+  </body>
+
+</html>
